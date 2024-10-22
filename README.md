@@ -9,7 +9,7 @@
 - Obligatorias 
 
     - [Node](https://nodejs.org/en/) 
-    
+
     - [Visual code](https://code.visualstudio.com/)
 
     - [Chrome](https://www.google.com/chrome/?brand=CHBD&ds_kid=43700074304609356&gad_source=1&gclid=Cj0KCQjwmt24BhDPARIsAJFYKk2lfMyAzGb8TGgDsA8fj-b5SpGf49NwneuIsuEfiAZhUgSOrMWoGG8aAhreEALw_wcB&gclsrc=aw.ds)
@@ -27,4 +27,3 @@
     - [Typescript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
 
     - [JSON Viewer Pro](https://chromewebstore.google.com/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc)
-
