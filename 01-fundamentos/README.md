@@ -56,7 +56,7 @@ console.log('Hola Mundo')
 
 ```
 let a = 10;
-var b = 10;
+var b = 10; // las variables les pertenecen a window, eso puede hacer que sobrescriba variables q se encuentren en el objeto window
 const c = 10;
 
 c = 20; // no se puede ERROR
@@ -117,3 +117,24 @@ let c = 'hola ',
 const SALUDO = c + d;
 ```
 
+#### Prompt, confirm y alert
+
+- alert muestra una alarma en web
+
+```
+alert('Hola Mundo');
+```
+
+- prompt muestra una alarma con una mensaje y una posible respuesta devuelve un string que el usuario responde
+puede devolver un (string, string vacio, null) 
+
+```
+prompt('Cual es tu nombre?', 'Sin nombre');
+```
+
+- confirm, muestra una opcion de aceptar o cancelar a un usuario para aceptar algo
+puede devolver un (true,false);
+
+```
+confirm('Esta seguro de borrar esto?');
+```
