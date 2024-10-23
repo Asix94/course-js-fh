@@ -81,3 +81,39 @@ let a = 10,
 ```
 
 #### Introducción a la consola
+
+- Tipos de logs
+
+```
+console.log(x); // simplemente para loggear algo
+console.warn(x); // para mostrar un warning por consola 
+console.error(x); // para mostrar un error por consola
+```
+
+- Si queremos imprimir por consola llave -> valor
+
+```
+console.log({a});
+```
+
+- Si queremos añadir css en un console.log
+
+```
+console.log('%c Mis variables', 'color:blue; font-weight:bold');
+```
+
+- Si queremos mostrar una tabla por consola con todos los datos
+
+```
+console.table({a, b, c, d, x});
+```
+
+- concatenar strings
+
+```
+let c = 'hola ', 
+    d = 'Spiderman', 
+
+const SALUDO = c + d;
+```
+
