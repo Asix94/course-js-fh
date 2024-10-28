@@ -210,3 +210,54 @@ console.log({videoJuegos});
 console.log(videoJuegos[0]); // para hacer referencia a la primera posicion
 ```
 
+- Tamaño del array 
+
+```
+let juegos = ['Zelda', 'Mario', 'Metroid', 'Chrono'];
+console.log('Largo:', juegos.length);
+```
+
+- Foreach (bucle para recorrer un array)
+
+```
+juegos.forEach( (elemento, indice, arr) => {
+    console.log({elemento, indice, arr})
+})
+```
+
+- Añadir un elemento al final de un array
+
+```
+juegos.push( 'F-Zero' );
+console.log(juegos);
+```
+
+- Añadir un elemento al principio de un array
+
+```
+nuevaLongitud = juegos.unshift('Fire Emblem');
+console.log({nuevaLongitud, juegos});
+```
+
+- Eliminar el ultimo elemento de un array
+
+```
+let juegoBorrado = juegos.pop();
+console.log({juegoBorrado, juegos})
+```
+
+- Eliminar de un array por posicion
+
+```
+let pos = 1;
+console.log(juegos)
+let juegosBorrados = juegos.splice(pos, 2);
+console.log({juegosBorrados, juegos})
+```
+
+- Buscar un elemento dentro del array
+
+```
+let metroidIndex = juegos.indexOf('Metroid'); // Case Sensitive
+console.log(metroidIndex);
+```
