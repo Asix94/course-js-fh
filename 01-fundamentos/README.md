@@ -195,3 +195,18 @@ nombre = `Tía May`;
 console.log(typeof nombre);
 ```
 
+- arrays
+
+```
+const arr = new Array(10); // array con 10 elementos 
+console.log(arr);
+
+const arr = []; // array vacio
+console.log(arr);
+
+let videoJuegos = ['Mario 3', 'Megaman', 'Chrono Trigger']; // array con 3 elementos
+console.log({videoJuegos});
+
+console.log(videoJuegos[0]); // para hacer referencia a la primera posicion
+```
+
