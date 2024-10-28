@@ -261,3 +261,22 @@ console.log({juegosBorrados, juegos})
 let metroidIndex = juegos.indexOf('Metroid'); // Case Sensitive
 console.log(metroidIndex);
 ```
+
+- objeto
+
+```
+let personaje = {
+    nombre: 'Tony Stark',
+    codeName: 'Ironman',
+    vivo: false,
+    edad: 40,
+    coords: { 
+        lat: 34.034,
+        lng: -188.70
+    },
+    trajes: ['Mark I', 'Mark V', 'Hulkbuster'],
+};
+
+console.log(personaje)
+console.log('Nombre', personaje.nombre);
+```
