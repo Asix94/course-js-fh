@@ -280,3 +280,48 @@ let personaje = {
 console.log(personaje)
 console.log('Nombre', personaje.nombre);
 ```
+
+- eliminar un campo de un objeto
+
+```
+delete personaje.edad;
+console.log(personaje);
+```
+
+- convertir de objeto a array
+
+```
+const entriesPares = Object.entries(personaje);
+console.log(entriesPares);
+```
+
+- añadir un campo nuevo en un objeto
+
+```
+personaje.casado = true;
+```
+
+- bloquear el objeto para no poder manipularlo solo congela el objeto principal
+
+```
+Object.freeze(personaje);
+personaje.dinero = 10000000000000;
+console.log(personaje); // No aparece
+
+personaje.direccion.ubicacion = 'Costa Rica';
+console.log(personaje); // Si que modifica
+```
+
+- obtener todas las propiedades de un objeto en formato array
+
+```
+const propiedades = Object.getOwnPropertyNames(personaje)
+console.log(propiedades);
+```
+
+- obtener todos los valores de un objeto en formato array
+
+```
+const valores = Object.values(personaje)
+console.log(valores);
+```
