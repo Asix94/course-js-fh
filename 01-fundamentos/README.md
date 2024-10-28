@@ -325,3 +325,32 @@ console.log(propiedades);
 const valores = Object.values(personaje)
 console.log(valores);
 ```
+
+- funcion pasando un argumento
+
+```
+function saludar( nombre ) {
+    console.log('Hola ' + nombre);
+}
+
+saludar('Carlos');
+```
+
+- funcion anonima con argumeto
+```
+const saludar2 = function(nombre) {
+    console.log('Hola ' + nombre);
+}
+
+saludar2('Carlos');
+```
+
+- funcion de flecha con argumento
+
+```
+saludarFlecha = (nombre) => {
+    console.log('Hola ' + nombre);
+}
+
+saludarFlecha('Carlos')
+```
