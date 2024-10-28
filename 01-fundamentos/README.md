@@ -138,3 +138,60 @@ puede devolver un (true,false);
 ```
 confirm('Esta seguro de borrar esto?');
 ```
+
+### Sección 3: Fundamentos de Javascript. primitivos, arreglos, objetos y funciones basicas
+
+- Tipos de primitivos
+
+```
+Boolean - true o false:: Verdadero o Falso
+Null - Sin valor en lo absoluto
+Undefined - Una variable declarada que aún no se le asignan valor
+Number - integers, floats, etc
+String - Una cadena de caracteres, ej: Palabras, nombre de personas
+Symbol - Es un único valor que no es igual a ningún otro valor
+```
+
+- String 
+
+```
+let nombre = 'Peter Parker';
+```
+
+- Number 
+
+```
+let nombre = '123';
+```
+
+- Boolean
+
+```
+let esMarvel = true;
+```
+
+- Undefined
+
+```
+let superPoder
+```
+
+- Null
+```
+let soyNull = null
+```
+
+- Symbol
+```
+let symbol1 = Symbol('a');
+let symbol2 = Symbol('a');
+```
+
+- Para saber el tipo de una variable usaremos typeof
+
+```
+nombre = `Tía May`;
+
+console.log(typeof nombre);
+```
+
