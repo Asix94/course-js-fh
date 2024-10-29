@@ -354,3 +354,9 @@ saludarFlecha = (nombre) => {
 
 saludarFlecha('Carlos')
 ```
+
+- funcion de flecha abreviada 
+
+```
+const sumar2 = (a,b) => a + b
+```
