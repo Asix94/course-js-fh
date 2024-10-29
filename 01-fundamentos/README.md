@@ -360,3 +360,35 @@ saludarFlecha('Carlos')
 ```
 const sumar2 = (a,b) => a + b
 ```
+
+- en un objeto si el nombre de la propiedad y el nombre del valor es igual no hace falta hacer propiedad:valor solo con poner la propiedad es suficiente
+
+```
+persona: {
+    nombre: nombre,
+    apellido: apellido
+}
+
+persona: {
+    nombre,
+    apellido
+}
+```
+
+- para la funcion de flecha imprimir arguments
+
+```
+const imprimeArgumentos2 = (...args) => {
+    console.log(args)
+}
+```
+
+- destructurar argumentos
+
+```
+const [ casado, vivo, nombre, saludo ] = imprimeArgumentos2(10, true, false, 'Carlos', 'Hola');
+console.log({ casado, vivo, nombre, saludo })
+
+const { apellido: nuevoApellido } = crearPersona('Carlos', 'Ramos');
+console.log({nuevoApellido});
+```
