@@ -450,3 +450,32 @@ dia '1' - dia: 1
 
 solo las 2 primeras seria true
 ```
+
+- negación 
+
+```
+console.warn('Not o la negación');
+console.log(true); // true
+console.log(!true) // false
+console.log(!false) // true
+```
+
+- and 
+
+```
+console.warn('And'); // true si todos los valores son verdaderos
+console.log(true && true); // true
+console.log(true && false); // false
+```
+
+- or
+
+```
+console.warn('or'); // true
+
+console.log(true || false); // true
+console.log(false || false ); // false
+
+console.log(regresaTrue() || regresaFalse()); // true
+console.log(regresaFalse() || regresaTrue()); // true
+```
