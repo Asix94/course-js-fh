@@ -392,3 +392,61 @@ console.log({ casado, vivo, nombre, saludo })
 const { apellido: nuevoApellido } = crearPersona('Carlos', 'Ramos');
 console.log({nuevoApellido});
 ```
+
+- if 
+
+```
+if ( ) {
+
+}
+```
+
+- else 
+
+```
+if ( ) {
+
+} else {
+
+}
+```
+
+
+- if else 
+
+```
+if ( ) {
+
+} else if ( ) {
+
+} else {
+    
+}
+```
+
+- = asignación
+
+```
+dia = 1; // 1
+```
+
+- == comparación (valor)
+
+```
+dia: 1 - dia: '1';
+dia '1' - dia 1;
+dia == 1
+
+seria true
+```
+
+- === comparacíon (valor, tipo)
+
+```
+dia: 1 - dia: 1
+dia: '1' - dia: '1'
+dia: 1 - dia: '1'
+dia '1' - dia: 1
+
+solo las 2 primeras seria true
+```
