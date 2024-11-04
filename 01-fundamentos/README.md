@@ -479,3 +479,21 @@ console.log(false || false ); // false
 console.log(regresaTrue() || regresaFalse()); // true
 console.log(regresaFalse() || regresaTrue()); // true
 ```
+
+- Asignaciones 
+
+```
+console.warn('Asignaciones');
+
+const soyUndefined = undefined;
+const soyNull = null;
+const soyFalse = false;
+
+const a1 = true && 'Hola Mundo' && 150; // 150
+
+console.log({a1})
+
+const a1 = false && 'Hola Mundo' && 150; // false
+
+console.log({a1})
+```
