@@ -523,3 +523,26 @@ switch(dia) {
         console.log('No es lunes, martes o domingo');
 }
 ```
+
+- while
+
+```
+let i = 0;
+
+while( i < carros.length ) {
+    console.log( carros[i] );
+    //i = i + 1;
+    i++;
+}
+```
+
+- do while
+
+```
+let j = 0;
+
+do {
+    console.log(carros[j]);
+    j++;
+} while( carros[j] );
+```
