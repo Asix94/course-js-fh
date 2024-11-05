@@ -497,3 +497,9 @@ const a1 = false && 'Hola Mundo' && 150; // false
 
 console.log({a1})
 ```
+
+- ternario
+
+```
+horaApertura = ( [0,6].includes(dia) ) ? 9 : 11;
+```
